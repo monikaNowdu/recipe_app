@@ -1,0 +1,183 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b42b39;
+  width:1150px; 
+  height: 60px;
+  padding:0 70px; 
+  box-sizing: border-box; 
+  background-size:cover;
+  position:fixed;
+  z-index:1000;
+  top:0;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 40px; 
+  margin-right: 10px;
+}
+
+.navbar-heading {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 20px;
+}
+
+.navbar-right li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-right li a:hover {
+  color: #ffd700; 
+}
+
+
+.recipe-container {
+  padding: 20px;
+  text-align: center;
+  background-image:url("https://res.cloudinary.com/duxfqpbkj/image/upload/v1732535125/WhatsApp_Image_2024-11-25_at_17.13.52_db2ac990_umarvu.jpg");
+  background-attachment:fixed;
+}
+
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-actions {
+  margin-top: 15px;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.edit-button {
+  background-color: #007bff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.form-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%; 
+  width: 100%;  
+  background-image: url("https://res.cloudinary.com/duxfqpbkj/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1664948815/cld-sample-4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.moni{
+  color:#b1e015;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}

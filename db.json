@@ -1,0 +1,252 @@
+{
+  "health_recipes": [
+    {
+      "id": "1",
+      "name": "Salad",
+      "ingredients": [
+        {
+          "name": "Lettuce",
+          "quantity": "2 cups, chopped"
+        },
+        {
+          "name": "Tomato",
+          "quantity": "1 medium-sized, diced"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": "2 medium-sized, sliced"
+        }
+      ],
+      "instructions": [
+        "Wash all vegetables thoroughly under running water to remove any dirt or chemicals",
+        "Chop 2 cups of lettuce into bite-sized pieces and place them in a large mixing bowl.",
+        "Dice 1 medium-sized tomato and slice 1 cucumber into thin rounds. Add them to the bowl."
+      ],
+      "url": "https://makingsalads.com/wp-content/uploads/2022/01/cucumber-lettuce-tomato-salad.jpg",
+      "type": "fast_food"
+    },
+    {
+      "id": "2",
+      "name": "Egg Roll",
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": "3 large"
+        },
+        {
+          "name": "Flour Tortilla",
+          "quantity": "1 large"
+        },
+        {
+          "name": "Onion",
+          "quantity": "2 tablespoons, finely chopped"
+        }
+      ],
+      "instructions": [
+        "Beat 2 eggs with 1/4 teaspoon each of salt and black pepper in a bowl.",
+        "Heat 1 tablespoon of oil in a pan. Add 2 tablespoons of finely chopped onion",
+        "Pour the beaten eggs into the pan and cook until the egg sets (2-3 minutes)."
+      ],
+      "url": "https://www.babaganosh.org/wp-content/uploads/2021/05/egg-tortilla-rollups-38.jpg.webp"
+    },
+    {
+      "id": "3",
+      "name": "Sushi",
+      "ingredients": [
+        {
+          "name": "Sushi Rice",
+          "quantity": "2 cups, cooked"
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": "5 sheets"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": "1 small, sliced into thin strips"
+        }
+      ],
+      "instructions": [
+        "Lay out a nori sheet on a bamboo mat.",
+        "Use the bamboo mat to tightly roll the nori, forming a cylindrical sushi roll.",
+        "Cut the roll into 6-8 pieces with a sharp knife. Serve with soy sauce."
+      ],
+      "url": "https://koala.sh/api/image/v2-cej8v-uinz8.jpg?width=1216&height=832&dream"
+    },
+    {
+      "id": "4",
+      "name": "Chicken Biryani",
+      "ingredients": [
+        {
+          "name": "Basmati Rice",
+          "quantity": "2 cups, washed and soaked"
+        },
+        {
+          "name": "Chicken",
+          "quantity": "500 grams, cut into pieces"
+        },
+        {
+          "name": "Yogurt",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt, 1 tablespoon biryani masala, and salt for 30 minutes.",
+        "Boil soaked rice until 80% cooked and drain.",
+        "Cover tightly and cook on low heat for 30 minutes. Serve hot."
+      ],
+      "url": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Classic Cheeseburger",
+      "ingredients": [
+        {
+          "name": "Ground Beef",
+          "quantity": "250 grams, shaped into patties"
+        },
+        {
+          "name": "Cheddar Cheese",
+          "quantity": "2 slices"
+        },
+        {
+          "name": "Burger Buns",
+          "quantity": "2, toasted"
+        }
+      ],
+      "instructions": [
+        "Heat a skillet over medium heat and cook the patties",
+        "Add a slice of cheese on each patty in the last minute of cooking.",
+        "Assemble the burger with lettuce, tomato, patty, and toppings. Serve warm."
+      ],
+      "url": "https://freerangestock.com/sample/87062/delicious-hamburger-with-cheese-tomato-lettuce-and-ketchup.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Jjajangmyeon",
+      "ingredients": [
+        {
+          "name": "Noodles",
+          "quantity": "200 grams"
+        },
+        {
+          "name": "Black Bean Paste",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "Pork Belly",
+          "quantity": "100 grams, diced"
+        }
+      ],
+      "instructions": [
+        "Boil the noodles as per package instructions and set aside.",
+        "Heat oil in a pan and stir-fry pork belly for 2 minutes.",
+        "Add potato, zucchini, and onion, cooking for 5-7 minutes until tender."
+      ],
+      "url": "https://www.maangchi.com/wp-content/uploads/2020/10/jaengban-jjajangmyeon-scaled.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Paneer Butter Masala",
+      "ingredients": [
+        {
+          "name": "Paneer (Cottage Cheese)",
+          "quantity": "250 grams, cubed"
+        },
+        {
+          "name": "Tomatoes",
+          "quantity": "3, pureed"
+        },
+        {
+          "name": "Onion",
+          "quantity": "1 large, finely chopped"
+        }
+      ],
+      "instructions": [
+        "Heat 2 tablespoons of butter in a pan and sauté 1 chopped onion until golden.",
+        "Add 1 tablespoon of ginger-garlic paste and cook for 1 minute.",
+        "Finish with 2 tablespoons of fresh cream. Serve with naan or rice."
+      ],
+      "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2014/11/paneer-butter-masala-recipe-2.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Spaghetti Aglio e Olio",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": "200 grams"
+        },
+        {
+          "name": "Garlic",
+          "quantity": "5 cloves, thinly sliced"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": "3 tablespoons"
+        }
+      ],
+      "instructions": [
+        "Cook 200 grams of spaghetti in salted boiling water until al dente.",
+        "Heat 3 tablespoons olive oil in a pan and sauté 5 sliced garlic cloves until golden.",
+        "Add 1 teaspoon chili flakes and the cooked spaghetti. Toss well."
+      ],
+      "url": "https://images.services.kitchenstories.io/UY89c4f471NaK1C-BQ07FGZ_qVA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R131-final-photo-3-sg.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Chicken Curry",
+      "ingredients": [
+        {
+          "name": "Chicken",
+          "quantity": "500 grams"
+        },
+        {
+          "name": "Onion",
+          "quantity": "2 large, finely chopped"
+        },
+        {
+          "name": "Tomato",
+          "quantity": "2, pureed"
+        },
+        {
+          "name": "Ginger-Garlic Paste",
+          "quantity": "2 tablespoons"
+        }
+      ],
+      "instructions": [
+        "Heat oil in a pan. Sauté 2 onions until golden.",
+        "Add 2 tablespoons of ginger-garlic paste",
+        "Stir in 1/2 teaspoon turmeric, 1 tablespoon coriander powder",
+        "Garnish with coriander leaves and serve with rice or roti."
+      ],
+      "url": "https://i.ytimg.com/vi/YVWiUIJC4HY/hqdefault.jpg"
+    }
+  ],
+  "fast_foods": [
+    {
+      "id": "0",
+      "name": "Pasta",
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "quantity": "200 grams"
+        },
+        {
+          "name": "Tomato",
+          "quantity": "3 medium-sized, finely chopped"
+        },
+        {
+          "name": "Garlic",
+          "quantity": "3 cloves, minced"
+        }
+      ],
+      "instructions": [
+        "Boil pasta in a large pot of salted water for 8-10 minutes or until al dente",
+        "Heat 2 tablespoons of olive oil in a pan over medium heat.",
+        "Serve hot with optional grated Parmesan cheese."
+      ],
+      "url": "https://www.yayforfood.com/wp-content/uploads/black-pepper-parmesan-spaghetti-with-garlic-roasted-tomatoes-featured-1024x683.jpg.webp"
+    }
+  ]
+}
